@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="scss/style.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="slick/slick-theme.css">
+	<title>copy Simple Shape</title>
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<nav class="header-nav">
+				<a href=""><img src="img/logo.png" alt="Simple Shape"></a>
+				<ul class="header-nav links">
+					<div class="first-links">
+						<li><a href="#">Shop</a></li>
+						<li><a href="#">Makers</a></li>
+					</div>
+					<div class="second-links">
+						<li><a href="#">Journal</a></li>
+						<li><a href="#">Instagram</a></li>
+					</div>
+					<div class="third-links">
+						<li><a href="#">Us</a></li>
+						<li><a href="#">Contact</a></li>
+					</div>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section>
+		<div class="slider">
+			<div><a href=""><img src="img/bone+china.jpg" alt="bone china"></a></div>
+			<div><a href=""><img src="img/charred+oak.jpg" alt="charred oak"></a></div>
+		</div>
+	</section>
+
+	<section class="item">
+		<div class="container">
+			<div class="items">
+				<h3>Shop</h3>
+				<div class="items-shop">
+					<div class="items-shop item">
+						<a href="#"><img src="img/Accessories.jpg" alt="Accessories"></a>
+						<p>Accessories</p>
+					</div>
+					<div class="shop-items item">
+						<a href="#"><img src="img/Basket.jpg" alt="Basket"></a>
+						<p>Basket</p>
+					</div>
+					<div class="shop-items item">
+						<a href="#"><img src="img/Ceramics.jpg" alt="Ceramics"></a>
+						<p>Ceramics</p>
+					</div>
+					<div class="shop-items item">
+						<a href="#"><img src="img/Glass.jpg" alt="Glass"></a>
+						<p>Glass</p>
+					</div>
+					<div class="shop-items item">
+						<a href="#"><img src="img/Metal.jpg" alt="Metal"></a>
+						<p>Metal</p>
+					</div>
+					<div class="shop-items item">
+						<a href="#"><img src="img/Paper.jpg" alt="Paper"></a>
+						<p>Paper</p>
+					</div>
+					<div class="shop-items item">
+						<a href="#"><img src="img/Textiles.jpg" alt="Textiles"></a>
+						<p>Textiles</p>
+					</div>
+					<div class="shop-items item">
+						<a href="#"><img src="img/Wood.jpg" alt="Wood"></a>
+						<p>Wood</p>
+					</div>
+				</div>
+			</div>
+			<div class="items">
+				<h3>Instagram</h3>
+				<div class="items-instagram item">
+					<a href="#"><img src="img/Insta1.jpeg" alt=""></a>
+					<a href="#"><img src="img/Insta2.jpeg" alt=""></a>
+					<a href="#"><img src="img/Insta3.jpeg" alt=""></a>
+					<a href="#"><img src="img/Insta4.jpeg" alt=""></a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<nav>
+				<ul>
+					<li>Newsletter</li>
+					<span>/</span>
+					<li>Press</li>
+					<span>/</span>
+					<li>Notes</li>
+					<span>/</span>
+					<li>Terms & Conditions</li>
+					<span>/</span>
+					<li>Delivery</li>
+				</ul>
+			</nav>
+		</div>
+	</footer>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+      $('.slider').slick({
+        infinity: true,
+		autoplay: true,
+		arrows:true
+		autoplaySpeed: 5000,
+		dots: true,
+		fade: true,
+		dotsClass: 'slick-dots',
+      });
+    });
+</script>
+
+</body>
+</html>

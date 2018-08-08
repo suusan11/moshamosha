@@ -1,0 +1,26 @@
+.container {
+	max-width: 100%;
+	width: $width-container;
+  	margin: $margin-container;
+}
+
+.header-nav {
+	margin: $margin-header; 
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-end;
+
+		.first-links, .second-links, .third-links {
+		flex-wrap: wrap;
+		margin-left: $margin-left-header-nav;
+
+			li {
+				padding-bottom: $padding-bottom-header-nav-li;
+			}
+
+			a {
+				color: $font-color-black;
+			}
+		}
+	
+}
