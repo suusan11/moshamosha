@@ -11,23 +11,30 @@ $font-size-h2: 23px;
 $font-weight-light: lighter;
 $font-weight-bold: bold;
 
+//line-height
+$_font-line-height: 1.2px;
+
 //background-color
 $background-color: #FCFCFC;
 
 //container
 $width-container: 1140px;
-$margin-container: 0 auto;
+$margin-container: 0% auto;
 
 //header
-$margin-header: 2% 18%;
+$margin-header: 2% 10%;
 $padding-header-nav-links: 10%;
 $margin-left-header-nav: 30%;
 $padding-bottom-header-nav-li: 10%;
 
 //items
-$margin-bottom-items: 4%; 
+$margin-items: 4% 0; 
+$margin-left-items-h2: 8%;
 $flex-basis-item: 20%;
 $margin-item: 1.5% 1%;
 $width-item-img: 96%;
 $height-item-img: 96%;
 $padding-top-items-p: 5%;
+
+//footer
+$margin-right-footer-nav-li: 1%; 

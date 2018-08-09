@@ -1,15 +1,16 @@
 .items {
-	margin-bottom: $margin-bottom-items;
+	margin: $margin-items;
 
-		h2 {
-			font-size: $font-size-h2;
-		}
+	h2 {
+		font-size: $font-size-h2;
+		margin-left: $margin-left-items-h2;
 	}
+}
 
 .items-shop-instagram {
 	display: flex;
-	justify-conten: center;
-	align-items: flex-start;
+	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
 
 	.item {
