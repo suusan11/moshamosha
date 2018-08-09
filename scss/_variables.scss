@@ -5,15 +5,28 @@ $font-color-gray: #7A7A7A;
 //font-size
 $font-size-base: 16px;
 $font-size-h1: 20px;
+$font-size-p: 15px;
+
+//font-weight
+$font-weight-light: light;
+$font-weight-bold: bold;
 
 //background-color
-$background-color: #FFFFFF;
+$background-color: #FCFCFC;
 
 //container
 $width-container: 1140px;
 $margin-container: 0 auto;
+
 //header
 $margin-header: 2% 18%;
 $padding-header-nav-links: 10%;
 $margin-left-header-nav: 30%;
 $padding-bottom-header-nav-li: 10%;
+
+//items
+$flex-basis-item: 20%;
+$margin-item: 2%;
+$width-item-img: 100%;
+$height-item-img: 100%;
+$padding-top-items-p: 5%;
