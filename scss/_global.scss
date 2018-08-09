@@ -19,10 +19,7 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
   -moz-osx-font-smoothing: auto;
   background-color: $background-color;
-  // font-kerning: normal;
-  // font-family: $sans-base;
-  // font-weight: $_font-weight;
-  // line-height: $_font-line-height;
+  line-height: $_font-line-height;
   color: $font-color-black;
 }
 
