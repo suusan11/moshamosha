@@ -1,0 +1,21 @@
+.footer-nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: $margin-footer-nav;
+
+
+	.lists {
+		width: 80%;
+
+		a,span {
+			color: $font-color-gray;
+			font-size: $font-size-base;
+			font-weight: $font-weight-light;
+		}
+
+		li, span {
+			margin-right: $margin-right-footer-nav-li;
+		}
+	}
+}
