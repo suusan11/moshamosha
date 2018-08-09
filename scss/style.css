@@ -131,31 +131,35 @@ html {
   width: 100%;
 }
 
-.items-shop {
+.items {
+  margin-bottom: 4%;
+}
+
+.items h2 {
+  font-size: 23px;
+}
+
+.items-shop-instagram {
   display: flex;
   justify-conten: center;
   align-items: flex-start;
   flex-wrap: wrap;
 }
 
-.items-shop .item {
+.items-shop-instagram .item {
   flex-basis: 20%;
   display: block;
-  margin: 2%;
+  margin: 1.5% 1%;
   margin-left: 0;
 }
 
-.items-shop .item img {
-  width: 100%;
-  height: 100%;
+.items-shop-instagram .item img {
+  width: 96%;
+  height: 96%;
 }
 
-.items-shop .item h3 {
-  font-weight: bold;
-}
-
-.items-shop .item p {
+.items-shop-instagram .item p {
   font-size: 15px;
-  font-weight: light;
+  font-weight: lighter;
   padding-top: 5%;
 }

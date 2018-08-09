@@ -4,11 +4,11 @@ $font-color-gray: #7A7A7A;
 
 //font-size
 $font-size-base: 16px;
-$font-size-h1: 20px;
 $font-size-p: 15px;
+$font-size-h2: 23px;
 
 //font-weight
-$font-weight-light: light;
+$font-weight-light: lighter;
 $font-weight-bold: bold;
 
 //background-color
@@ -25,8 +25,9 @@ $margin-left-header-nav: 30%;
 $padding-bottom-header-nav-li: 10%;
 
 //items
+$margin-bottom-items: 4%; 
 $flex-basis-item: 20%;
-$margin-item: 2%;
-$width-item-img: 100%;
-$height-item-img: 100%;
+$margin-item: 1.5% 1%;
+$width-item-img: 96%;
+$height-item-img: 96%;
 $padding-top-items-p: 5%;
