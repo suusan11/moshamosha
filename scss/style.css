@@ -110,19 +110,25 @@ html {
 }
 
 .header-nav {
-  margin: 2% 10%;
+  margin: 2% 9%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
 }
 
+.header-nav .links {
+  margin: 0;
+}
+
 .header-nav .first-links, .header-nav .second-links, .header-nav .third-links {
+  display: block;
   flex-wrap: wrap;
   margin-left: 30%;
 }
 
 .header-nav .first-links li, .header-nav .second-links li, .header-nav .third-links li {
-  padding-bottom: 10%;
+  height: 32px;
+  padding: 20% 0;
 }
 
 .header-nav .first-links a, .header-nav .second-links a, .header-nav .third-links a {
