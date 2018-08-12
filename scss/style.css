@@ -112,26 +112,26 @@ html {
 .header-nav {
   margin: 2% 9%;
   display: flex;
-  justify-content: flex-start;
-  align-items: flex-end;
+}
+
+.header-nav img {
+  margin-right: 20px;
 }
 
 .header-nav .links {
-  margin: 0;
-}
-
-.header-nav .first-links, .header-nav .second-links, .header-nav .third-links {
-  display: block;
+  display: flex;
   flex-wrap: wrap;
-  margin-left: 30%;
+  justify-content: space-around;
+  align-items: flex-end;
+  width: 30%;
 }
 
-.header-nav .first-links li, .header-nav .second-links li, .header-nav .third-links li {
-  height: 32px;
-  padding: 20% 0;
+.header-nav .links li {
+  width: 90px;
+  margin-left: 1%;
 }
 
-.header-nav .first-links a, .header-nav .second-links a, .header-nav .third-links a {
+.header-nav .links a {
   color: #282828;
 }
 
