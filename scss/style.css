@@ -123,12 +123,12 @@ html {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-end;
-  width: 30%;
+  width: 430px;
+  margin-left: 5%;
 }
 
 .header-nav .links li {
-  width: 90px;
-  margin-left: 1%;
+  width: 30%;
 }
 
 .header-nav .links a {

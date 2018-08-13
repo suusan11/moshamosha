@@ -18,11 +18,11 @@
 		flex-wrap: wrap;
 		justify-content: space-around;
 		align-items: flex-end;
-		width: 30%;
+		width: 430px;
+		margin-left: 5%;
 	
 		li {
-			width: 90px;
-			margin-left: $padding-header-nav-li;
+			width: 30%;
 		}
 
 		a {
