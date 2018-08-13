@@ -21,15 +21,20 @@
 					<li><a href="#">Makers</a></li>
 					<li><a href="#">Instagram</a></li>
 					<li><a href="#">Contact</a></li>
+				</ul>
 			</nav>
 		</div>
 	</header>
 
 	<section>
 		<div class="slider">
-			<div><a href="#"><img src="img/bone+china.jpg" alt="bone china"></a></div>
-			<div><a href="#"><img src="img/charred+oak.jpg" alt="charred oak"></a></div>
+			<a href="#"><img src="img/bone+china.jpg" alt="bone china"></a>
+			<a href="#"><img src="img/charred+oak.jpg" alt="charred oak"></a>
 		</div>
+		<!-- <div class="slider-arrows">
+			<a href="#" class="prev-arrow"></a>
+			<a href="#" class="next-arrow"></a>
+		</div> -->
 	</section>
 
 	<section>
@@ -108,22 +113,22 @@
 			</nav>
 		</div>
 	</footer>
-<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function(){
-      $('.slider').slick({
-        infinity: true,
-		autoplay: true,
-		arrows:true
-		autoplaySpeed: 5000,
-		dots: true,
-		fade: true,
-		dotsClass: 'slick-dots',
-      });
-    });
-</script>
+
+	<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+	<script type="text/javascript">
+           $(function(){
+            $('.slider').slick({
+              infinity: true,
+              autoplay: true,
+              autoplaySpeed: 5000,
+              dots: false,
+              fade: true,
+              arrows: true
+            });
+          });
+    </script>
 
 </body>
 </html>
